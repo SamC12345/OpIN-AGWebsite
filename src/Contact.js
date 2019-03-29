@@ -6,7 +6,7 @@ class Contact extends Component {
       <div>
         <h2>Contact information</h2>
         <p>Here i'll put info like my email or github
-        </p>
+        </p> 
       </div>
     );
   }
