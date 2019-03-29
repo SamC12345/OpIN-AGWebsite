@@ -28,6 +28,9 @@ function SimpleExpansionPanel(props) {
           <Typography className={classes.heading}>Part I</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
+          <div style = {{  
+            width: "100%",
+            border: "2px solid black",}}>
           {/* <Typography>
           Click <a href="https://docs.google.com/document/d/1SWJBw0dEe5E14FdffI-gqoWpoUL-lcqcfTJq8hSPvz8/edit?usp=sharing">here</a> to go to semester 1 curriculum.
           </Typography> */}
@@ -41,6 +44,7 @@ function SimpleExpansionPanel(props) {
         position="relative"
         allowFullScreen
         styles={{border:"aliceblue"}}/>
+        </div>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel>
