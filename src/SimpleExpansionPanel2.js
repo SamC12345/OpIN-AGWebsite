@@ -39,11 +39,12 @@ function SimpleExpansionPanel(props) {
       </ExpansionPanel>
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>Part II</Typography>
+          <Typography className={classes.heading}>More Information</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Link to semester 2 curriculum will go here.
+          <a href="https://wiki.openag.media.mit.edu/mvp_1">Additional Support</a><br></br>
+          <a href="https://docs.google.com/spreadsheets/d/10ZocJ5pgDl68cjRT9sIUukXjquZQ57eoRkpp0UqQJ2c/edit?usp=sharing">Costs and Materials</a><br></br>
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
