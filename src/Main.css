@@ -1,0 +1,21 @@
+#Navbar {
+  /* height: 10vh; */
+}
+#Content {
+  background-color: #FFF;
+  padding: 20px;
+  /* height: 85vh; */
+}
+#Content h2 {
+  padding: 0;
+  margin: 0;
+}
+#Content li {
+  margin-bottom: 10px;
+}
+#MainContainer {
+  display:flex;
+  flex-direction: column;
+  /* padding-bottom: 20px; */
+}
+
