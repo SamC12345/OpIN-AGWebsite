@@ -34,9 +34,10 @@ function ButtonAppBar(props) {
           <Typography variant="h6" color="inherit" className={classes.grow} style={{display:"flex"}}>
             {/* Helloo */}
             <div id="NavLinkButtonContainer"><NavLink exact to="/" id="NavLinkButton">Home</NavLink></div>
-            <div id="NavLinkButtonContainer"><NavLink to="/stuff" id="NavLinkButton">Stuff</NavLink></div>
-            <div id="NavLinkButtonContainer"><NavLink to="/contact" id="NavLinkButton">Contact</NavLink></div>
+            <div id="NavLinkButtonContainer"><NavLink to="/curriculum" id="NavLinkButton">Curriculum</NavLink></div>
+            {/* <div id="NavLinkButtonContainer"><NavLink to="/contact" id="NavLinkButton">Contact</NavLink></div> */}
             <div id="NavLinkButtonContainer"><NavLink to="/about" id="NavLinkButton">About</NavLink></div>
+            <div id="NavLinkButtonContainer"><NavLink to="/sources" id="NavLinkButton">Sources</NavLink></div>
           </Typography>
           {/* <Button color="inherit">Login</Button> */}
         </Toolbar>

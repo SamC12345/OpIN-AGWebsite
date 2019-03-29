@@ -23,11 +23,17 @@ function SimpleExpansionPanel(props) {
     <div className={classes.root}>
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>Part I</Typography>
+          <Typography className={classes.heading}>Food Computer Instructions</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-          Click <a href="https://docs.google.com/document/d/1SWJBw0dEe5E14FdffI-gqoWpoUL-lcqcfTJq8hSPvz8/edit?usp=sharing">here</a> to go to semester 1 curriculum.
+          <a href="https://docs.google.com/presentation/d/1-RhLp98lgGOMHJ7TVwpK3idU7WbcJTbuMNNjlbJ5TME/edit?usp=sharing">Part I Assembly: Prepared Parts Documentation</a><br></br>
+          <a href="https://docs.google.com/presentation/d/1bXkGeTNTy66-_mO14JqDCGnvB5E5y3JXhQ38yVxRPP0/edit?usp=sharing">Part II Assembly: Brain Subassembly Documentation</a><br></br>
+          <a href="https://docs.google.com/presentation/d/1TVVPPh8ymDziJstBPThQpdcQynRyJOo_DGR2CHAkSU0/edit?usp=sharing">Part III Assembly: Enclosure Subassembly Documentation</a><br></br>
+          <a href="https://docs.google.com/presentation/d/1h53Dlnwfk4txx3D7bPjipJmu_femCNZAWq2onlkEO0c/edit?usp=sharing">Part IV Assembly: Final Assembly Documentation</a><br></br>
+          <a href="https://docs.google.com/presentation/d/1XIZdzpvIR4x0E80TgR2NLbtaRzQr0QnXLJ8R8A7IE9g/edit?usp=sharing">Part V: Operational Guide</a><br></br>
+          <a href="https://docs.google.com/presentation/d/1YNNcF4PwlKjqAmt4XgMx4NBQcAw279qRtd0rp2uKJSg/edit?usp=sharing">Part VI: MVP Software Guide</a><br></br>
+
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>

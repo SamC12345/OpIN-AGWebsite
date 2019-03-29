@@ -5,10 +5,9 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h2>HELLO</h2>
-        <p>This will be a high level overview of what I do</p>
+        <h1>O-PIN Agriculture Initiative</h1>
+        <h3><sub>Inspiring and Empowering the High Tech Farmers of the Future.</sub></h3><br></br>
  <img src={logo} style={{height:"200px"}} ></img>
-        <p>maybe i'll put some education here too</p>
       </div>
     );
   }

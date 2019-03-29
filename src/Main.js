@@ -9,6 +9,7 @@ import Home from "./Home";
 import Stuff from "./Stuff";
 import Contact from "./Contact";
 import About from "./About"
+import Sources from "./Sources";
 import "./Main.css";
 
 
@@ -27,7 +28,8 @@ class Main extends Component {
                 </div>
                 <div id="Content">
                     <Route exact path="/" component={Home}/>
-                    <Route path="/stuff" component={Stuff}/>
+                    <Route path="/curriculum" component={Stuff}/>
+                    <Route path="/sources" component={Sources}/>
                     <Route path="/contact" component={Contact}/>
                     <Route path="/about" component={About}/>
                 </div>
