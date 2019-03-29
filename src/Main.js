@@ -8,6 +8,7 @@ import SimpleAppBar from "./AppBar";
 import Home from "./Home";
 import Stuff from "./Stuff";
 import Contact from "./Contact";
+import About from "./About"
 import "./Main.css";
 
 
@@ -28,6 +29,7 @@ class Main extends Component {
                     <Route exact path="/" component={Home}/>
                     <Route path="/stuff" component={Stuff}/>
                     <Route path="/contact" component={Contact}/>
+                    <Route path="/about" component={About}/>
                 </div>
             </div>
         </HashRouter>

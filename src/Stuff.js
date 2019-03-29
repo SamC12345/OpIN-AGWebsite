@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import SimpleExpansionPanel from "./SimpleExpansionPanel"
 export default class Stuff extends React.Component {
   constructor(props) {
       super(props);
@@ -11,7 +11,8 @@ export default class Stuff extends React.Component {
   render() {
       return <React.Fragment>
         <h2>HELLO</h2>
-        <p>This will be a description of a project I did</p>
+        <p>Link to Lesson Plan for Week 1: </p>
+        <SimpleExpansionPanel/>
       </React.Fragment>
   }
 };

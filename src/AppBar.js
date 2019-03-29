@@ -36,6 +36,7 @@ function ButtonAppBar(props) {
             <div id="NavLinkButtonContainer"><NavLink exact to="/" id="NavLinkButton">Home</NavLink></div>
             <div id="NavLinkButtonContainer"><NavLink to="/stuff" id="NavLinkButton">Stuff</NavLink></div>
             <div id="NavLinkButtonContainer"><NavLink to="/contact" id="NavLinkButton">Contact</NavLink></div>
+            <div id="NavLinkButtonContainer"><NavLink to="/about" id="NavLinkButton">About</NavLink></div>
           </Typography>
           {/* <Button color="inherit">Login</Button> */}
         </Toolbar>
