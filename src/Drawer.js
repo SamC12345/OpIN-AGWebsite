@@ -42,19 +42,19 @@ class SwipeableTemporaryDrawer extends React.Component {
       <div className={classes.list}>
         <List>
           <ListItem>
-              <div id="NavLinkButtonContainer"><NavLink exact to="/" id="NavLinkButton">Home</NavLink></div>
+              <div id="NavLinkButtonContainer1"><NavLink exact to="/" id="NavLinkButton">Home</NavLink></div>
           </ListItem>
         <Divider />
         <ListItem >
-          <div id="NavLinkButtonContainer"><NavLink to="/curriculum" id="NavLinkButton">Curriculum</NavLink></div>
+          <div id="NavLinkButtonContainer1"><NavLink to="/curriculum" id="NavLinkButton">Curriculum</NavLink></div>
         </ListItem>
         <Divider />
         <ListItem >
-          <div id="NavLinkButtonContainer"><NavLink to="/about" id="NavLinkButton">About</NavLink></div>
+          <div id="NavLinkButtonContainer1"><NavLink to="/about" id="NavLinkButton">About</NavLink></div>
         </ListItem>
         <Divider />
         <ListItem >
-          <div id="NavLinkButtonContainer"><NavLink to="/sources" id="NavLinkButton">Sources</NavLink></div>
+          <div id="NavLinkButtonContainer1"><NavLink to="/sources" id="NavLinkButton">Sources</NavLink></div>
           </ListItem>
         </List>
       </div>
