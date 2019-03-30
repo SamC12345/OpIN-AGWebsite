@@ -9,9 +9,9 @@ export default class Sources extends React.Component {
   
 
   render() {
-      return <React.Fragment>
-        <h2><br></br>Sources</h2><br></br>
+      return <div style ={{padding: "25px" }}>
+        <h2>Sources</h2><br></br>
         <SimpleExpansionPanel/>
-      </React.Fragment>
+      </div>
   }
 };

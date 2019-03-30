@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class Contact extends Component {
   render() {
     return (
-      <div>
-        <h2><br></br>About Us</h2>
+      <div style ={{padding: "25px" }}>
+        <h2>About Us</h2>
         <p>Welcome!</p>
         <p>The <b>O-PIN AG</b> project brings together partners from industries, government, and academia to develop an open sourced curriculum based on vertical farming and building a food computer. As an open sourced project, we heavily rely on our community to co-create the next generation of high-tech farmers. 
           O-PIN AG is a part of a nonprofit organization called <b>Project Innovate Newark (P.I.N.)</b>. PIN's mission is to work with Newark's multisector community by developing and innovative and quantitative strategies that build upon existing assets within the city.  

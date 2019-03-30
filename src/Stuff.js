@@ -9,10 +9,10 @@ export default class Stuff extends React.Component {
   
 
   render() {
-      return <React.Fragment>
-        <h2><br></br>Curriculim</h2>
+      return <div style ={{padding: "25px" }}>
+        <h2>Curriculim</h2>
         <p>The following links contain our lesson plans : </p>
         <SimpleExpansionPanel/>
-      </React.Fragment>
+      </div>
   }
 };
