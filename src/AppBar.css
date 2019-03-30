@@ -17,8 +17,15 @@ code {
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: none;
-  color: goldenrod;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
   
+}
+
+.active {
+  /* background-color: #0099FF; */
+  font-weight: bolder;
+  color: rgb(120, 236, 65) !important;
 }
 
 #NavLinkButtonContainer{
